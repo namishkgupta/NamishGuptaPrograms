@@ -1,0 +1,14 @@
+PROBLEM: This is yet another in a long list of ACSL code programs. You would think we
+would have run out of them by now. In this program you will be given a letter to encode. The
+difference here is that different rules are used for different letters and the counting process can
+cause you to wrap around the alphabet. Using the numerical value of each letter (A=1, B=2, …
+Z= 26) the rules are as follows:
+If the letter is between the
+given letters, inclusive:
+
+The number of letters to count is given by:
+A – E Multiply its numerical value by 2
+F – J Divide its numerical value by 3. Multiply the integerremainder by 5
+K – O Divide its numerical value by 4. Multiply the integer part of the quotient by 8.
+P – T Multiply the sum of the digits of its numerical value by 10
+U- Z Find the largest integer factor of its numerical value less than the value itself. Multiply it by 12.
