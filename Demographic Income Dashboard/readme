@@ -1,2 +1,4 @@
 Description of project:
-Uses a dataset of various incomes from people of different demographics in the United States. The program displays financial information (from 2017-2018) about any given demographic, which the user inputs. It also calculates the percent change between the user's own 2017 and 2018 incomes, as well as the demographic they are closest to based on their incomes. 
+Uses a dataset of various incomes from people of different demographics in the United States. 
+The program displays financial information (from 2017-2018) about any given demographic, which the user inputs. 
+It also calculates the percent change between the user's own 2017 and 2018 incomes, as well as the demographic they are closest to based on their incomes. 
