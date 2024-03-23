@@ -1,2 +1,4 @@
-Description of project:
-Program that takes an address and a state from the user and displays the selected area on google maps.
+Description:
+The goal is to utilize the Google Maps API to create a personalized experience for each user, primarily by creating and displaying their places of interest and suggesting others.
+
+Currently, the program can take an address and a state from the user and displays the selected area on google maps. The next step is working on storing specific locations that the user wants to use to build their personalized map. 
