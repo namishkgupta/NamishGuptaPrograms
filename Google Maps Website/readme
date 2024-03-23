@@ -1,4 +1,4 @@
-Description:
-The goal is to utilize the Google Maps API to create a personalized experience for each user, primarily by creating and displaying their places of interest and suggesting others.
+Work in progress:
+Goal is to create an application that can help users track and manage their carbon emissions based on the places they went to in a day, utilizing the Google Maps API. The program will also display a dashboard of their trends, including their most used form of transportation and average carbon emissions. 
 
-Currently, the program can take an address and a state from the user and displays the selected area on google maps. The next step is working on storing specific locations that the user wants to use to build their personalized map. 
+Currently, the program can take an address and a state from the user and displays the selected area on google maps. The next step is working on storing specific locations that the user wants to use to track and reduce their emissions. 
