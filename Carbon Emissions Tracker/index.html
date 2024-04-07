@@ -11,19 +11,30 @@
 </head>
 <body>
     <h1>Map Visualizer</h1>
-    <h2>Enter a state and address!</h2>
-    <div id="map-container">
-        <iframe id="map-iframe" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    <h2>Enter a start and end address!</h2>
+
+
+   <div id="map-container">
+        <iframe
+        id = "map-iframe"
+        width="1000"
+        height="400"
+        frameborder="0" style="border:0"
+        referrerpolicy="no-referrer-when-downgrade"
+        src= ''
+        allowfullscreen>
+    </iframe>
     </div>
-    
     <br>
-    <label for="origin">Address: (Seperate words with underscores, not spaces)</label>
+    <label for="origin">Start Address: </label>
     <input type="text" id="origin">
+
     <br>
-    <label for="state">State:</label>
-    <input type="text" id="state">
-    <br>
+    <label for="destination">End Address: </label>
+    <input type="text" id="destination">
+
     <button onclick="calculatePosition()">Visualize</button>
+ 
     <script src="script.js"></script>
 </body>
 </html>
